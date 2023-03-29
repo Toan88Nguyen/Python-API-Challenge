@@ -64,16 +64,14 @@ To fulfill the second requirement, compute the linear regression for each relati
 
 Jupyter notebooks, the geoViews Python library, and the Geoapify API were used to work with weather data to plan future vacations.
 
-  ![map_plot](https://user-images.githubusercontent.com/120751287/228461516-bf0726a6-273d-4422-aba0-3d6b84c80768.png)
-
 * Narrow down cities to find my ideal weather condition, the criteria are listed below:
   1. A max temperature lower than 27 degrees but higher than 21.
   2. Wind speed less than 4.5 m/s.
   3. Zero cloudiness.
   
 * Create a new DataFrame called `hotel_df` to store the `City`, `Country`, `Coordinates` and `Humidity`. Also, add the `Hotel Name` and "Country" as additional information in the hover message for each city in `hotel map'.
-
-  ![map_plot](https://user-images.githubusercontent.com/120751287/228464703-87e865d7-cd57-4f35-9757-3bb4fdb7740d.png)
+* 
+  ![map_plot](https://user-images.githubusercontent.com/120751287/228461516-bf0726a6-273d-4422-aba0-3d6b84c80768.png)
 
 * Add the hotel name and the country as additional information in the hover message for each city in `hotel map`.
   
